@@ -31,7 +31,7 @@ https://www.flexboxdefense.com
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
     align-content: center;
@@ -39,118 +39,97 @@ https://www.flexboxdefense.com
     column-gap: 15px;
 
     /* INDIFERENTE */
-    background-color: rgb(107, 159, 163);
+    background-color: rgb(31, 91, 131);
     padding: 150px;
     height: 500px;
 }
 
-.bloco-1 {
-    background-color: aquamarine;
-    padding: 15px;
-    width: 50px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex: 0 0 auto;
-
-
-}
-
 .bloco-2 {
-    background-color: rgb(255, 214, 127);
+    background-color: rgb(255, 221, 221)
+    ;
     padding: 15px;
     width: 50px;
     flex-grow: 0;
     flex-shrink: 1;
-}
 
-.bloco-3 {
-    background-color: rgb(197, 127, 255);
-    padding: 15px;
-    width: 50px;
-    flex-grow: 0;
-    flex-shrink: 1;
+
+
 }
 
 .bloco-4 {
-    background-color: rgb(127, 146, 255);
+    background-color: rgb(255, 209, 209);
     padding: 15px;
     width: 50px;
-}
-
-.bloco-5 {
-    background-color: rgb(129, 127, 255);
-    padding: 15px;
-    width: 50px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .bloco-6 {
-    background-color: rgb(255, 157, 127);
+    background-color: rgb(255, 186, 186);
     padding: 15px;
     width: 50px;
-}
-
-.bloco-7 {
-    background-color: rgb(240, 28, 28);
-    padding: 15px;
-    width: 50px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .bloco-8 {
-    background-color: rgb(169, 74, 247);
-    padding: 15px;
-    width: 50px;
-}
-
-.bloco-9 {
-    background-color: rgb(245, 44, 77);
+    background-color: rgb(255, 150, 150);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-10 {
-    background-color: rgb(85, 233, 93);
-    padding: 15px;
-    width: 50px;
-}
-
-.bloco-11 {
-    background-color: rgb(176, 245, 15);
+    background-color: rgb(255, 139, 139);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-12 {
-    background-color: rgb(166, 230, 183);
-    padding: 15px;
-    width: 50px;
-}
-
-.bloco-13 {
-    background-color: rgb(21, 183, 204);
+    background-color: rgb(255, 100, 100);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-14 {
-    background-color: rgb(29, 202, 13);
+    background-color: rgb(252, 96, 96);
     padding: 15px;
     width: 50px;
 }
 
-.bloco-15 {
-    background-color: rgb(212, 192, 233);
+.bloco-16 {
+    background-color: rgb(255, 87, 87);
     padding: 15px;
     width: 50px;
 }
 
-.bloco-1, .bloco-2, .bloco-3, .bloco-4,
-.bloco-5, .bloco-6, .bloco-7, .bloco-8,
-.bloco-9, .bloco-10, .bloco-11, .bloco-12,
-.bloco-13, .bloco-14, .bloco-15 {
-    height: 50px;
+.bloco-18 {
+    background-color: rgb(255, 75, 75);
+    padding: 15px;
+    width: 50px;
+}
+
+.bloco-20 {
+    background-color: rgb(255, 68, 68);
+    padding: 15px;
+    width: 50px;
+}
+
+.bloco-22 {
+    background-color: rgb(255, 36, 36);
+    padding: 15px;
+    width: 50px;
+}
+
+
+
+
+.bloco-2, .bloco-4, .bloco-6, .bloco-8,
+.bloco-10, .bloco-12, .bloco-14, .bloco-16,
+.bloco-18, .bloco-20, .bloco-22. {
+    height: 100px;
     width: 50px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 16px;
+    border-radius: 20px;
 }
